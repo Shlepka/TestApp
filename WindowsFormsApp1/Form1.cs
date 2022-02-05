@@ -16,5 +16,20 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Вы точно хотите выйти? ");
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("Отобразить");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
